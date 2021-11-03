@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
-public class SpringSecuritySSOApp {
+public class SpringSecurityOauthApp {
 
     @Bean
     public RestTemplate getResttemplate()
@@ -19,6 +19,6 @@ public class SpringSecuritySSOApp {
     public static void main(String[] args) {
 
 
-        SpringApplication.run(SpringSecuritySSOApp.class);
+        SpringApplication.run(SpringSecurityOauthApp.class);
     }
 }

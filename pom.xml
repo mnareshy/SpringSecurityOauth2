@@ -32,7 +32,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.springsecurity.oauth2.SpringSecuritySSOApp</mainClass>
+                    <mainClass>com.springsecurity.oauth2.SpringSecurityOauthApp</mainClass>
                 </configuration>
             </plugin>
         </plugins>
